@@ -1,0 +1,134 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    border: 1px solid green;
+    border-radius: 3px;
+    padding: 15px;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+
+.mainMenu {
+    border: 1px solid green;
+    border-radius: 3px;
+    flex: 1;
+    text-align: center;
+}
+
+.menuItem {
+    border: 1px solid teal;
+    border-radius: 3px;
+    font-size: 17px; 
+    margin: 10px;
+    display: flex;
+    padding: 5px;   
+}
+
+.itemName {
+    border: 1px solid teal;
+    text-align: center;
+    border-radius: 3px;
+    flex: 2;
+}
+
+.selector {
+    border: 1px solid teal;
+    border-radius: 3px;
+    flex: 1;
+    text-align: center;
+    margin: 0px 60px; 
+    background-color: teal;
+    color: white;
+}
+
+.selector:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;     
+}
+/* End of main Menu */
+
+.extras {
+    border: 1px solid green;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tillSlip {
+    border: 1px solid green;
+    border-radius: 3px;
+    flex: 1;
+    margin-left: 10px;
+    text-align: center;
+    display: flex; 
+    flex-flow: column nowrap;
+    padding: 5px;
+}
+
+.lineItem, .headingRow {
+    display: flex;
+}
+
+.heading {
+    border: 1px solid teal;
+    border-radius: 3px;
+    flex: 1;
+    margin: 5px;
+}
+
+.lineItemName, .quantity, .unitPrice, .cost  {
+    border-radius: 5px;
+    flex: 1;
+    text-align: right;
+    margin: 5px;
+}
+
+.lineItemName {
+    text-align: left;
+}
+
+.totalRow {
+    border: 1px solid teal;
+    border-radius: 5px;
+    margin: 50px 0;
+    flex: 0.1;
+    padding: 5px;
+    /* position: relative;
+    width: 100%; */
+}
+
+.total {
+    text-align: center;
+    float: left;
+}
+
+.totalAmount {
+    text-align: center;
+    float: right;
+}
+
+.placeOrder {
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    background-color: teal;
+}
+
+.placeOrder:hover {
+    color: black;
+    background-color: white;
+    border-color: teal;
+    cursor: pointer;
+}
+

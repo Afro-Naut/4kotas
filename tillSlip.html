@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" href="tillSlip.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+    <div class="menu">
+        <div class="mainMenu">
+                <h3> Main Menu </h3>
+            <div class="menuItem">
+                <span class="itemName"> Starter Pack </span>
+                <button class="selector" onclick="addItemEventHandler(1, starterPackLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, starterPackLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Contract </span>
+                <button class="selector"  onclick="addItemEventHandler(1, contractLineItem)"> + </button>
+                <button class="selector"  onclick="addItemEventHandler(-1, contractLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Upgrade </span>
+                <button class="selector"  onclick="addItemEventHandler(1, upgradeLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, upgradeLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Smart Phone </span>
+                <button class="selector" onclick="addItemEventHandler(1, smartPhoneLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, smartPhoneLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Tablet </span>
+                <button class="selector"  onclick="addItemEventHandler(1, tabletLineItem)"> + </button>
+                <button class="selector"  onclick="addItemEventHandler(-1, tabletLineItem)"> - </button> 
+            </div>
+        </div>
+        <div class="extras">
+            <h3> Extras </h3>
+            <div class="menuItem">
+                <span class="itemName"> Polony </span>
+                <button class="selector" onclick="addItemEventHandler(1, polonyLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, polonyLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Cheese </span>
+                <button class="selector" onclick="addItemEventHandler(1, cheeseLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, cheeseLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Vienna </span>
+                <button class="selector" onclick="addItemEventHandler(1, viennaLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, viennaLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Russian </span>
+                <button class="selector" onclick="addItemEventHandler(1, russianLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, russianLineItem)"> - </button> 
+            </div>
+            <div class="menuItem">
+                <span class="itemName"> Burger </span>
+                <button class="selector" onclick="addItemEventHandler(1, burgerLineItem)"> + </button>
+                <button class="selector" onclick="addItemEventHandler(-1, burgerLineItem)"> - </button> 
+            </div>
+        </div>
+    </div>
+    <div class="tillSlip">
+        <h3> Till Slip </h3>
+        <div class="headingRow">
+            <span class="heading"> Item </span>
+            <span class="heading"> Qty </span>
+            <span class="heading"> Unit Price </span>
+            <span class="heading"> Cost </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Starter Pack </span>
+            <span class="quantity" id="Starter Pack Quantity"> 0 </span>
+            <span class="unitPrice" id="Starter Pack Unit Price">   0. 00 </span>
+            <span class="cost" id="Starter Pack Cost"> 0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Contract </span>
+            <span class="quantity" id="Contract Quantity"> 0 </span>
+            <span class="unitPrice" id="Contract Unit Price"> 0. 00 </span>
+            <span class="cost" id="Contract Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Upgrade </span>
+            <span class="quantity" id="Upgrade Quantity"> 0 </span>
+            <span class="unitPrice" id="Upgrade Unit Price"> 0. 00 </span>
+            <span class="cost" id="Upgrade Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Smart Phone </span>
+            <span class="quantity" id="Smart Phone Quantity"> 0 </span>
+            <span class="unitPrice" id="Smart Phone Unit Price"> 0. 00 </span>
+            <span class="cost" id="Smart Phone Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Tablet </span>
+            <span class="quantity" id="Tablet Quantity"> 0 </span>
+            <span class="unitPrice" id="Tablet Unit Price"> 0. 00</span>
+            <span class="cost" id="Tablet Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Extra Polony </span>
+            <span class="quantity" id="Extra Polony Quantity"> 0 </span>
+            <span class="unitPrice" id="Extra Polony Unit Price"> 0. 00</span>
+            <span class="cost" id="Extra Polony Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Extra Cheese </span>
+            <span class="quantity" id="Extra Cheese Quantity"> 0 </span>
+            <span class="unitPrice" id="Extra Cheese Unit Price"> 0. 00</span>
+            <span class="cost" id="Extra Cheese Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Extra Vienna </span>
+            <span class="quantity" id="Extra Vienna Quantity"> 0 </span>
+            <span class="unitPrice" id="Extra Vienna Unit Price"> 0. 00</span>
+            <span class="cost" id="Extra Vienna Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Extra Russian </span>
+            <span class="quantity" id="Extra Russian Quantity"> 0 </span>
+            <span class="unitPrice" id="Extra Russian Unit Price"> 0. 00</span>
+            <span class="cost" id="Extra Russian Cost">  0. 00 </span>
+        </div> 
+        <div class="lineItem">
+            <span class="lineItemName"> Extra Burger </span>
+            <span class="quantity" id="Extra Burger Quantity"> 0 </span>
+            <span class="unitPrice" id="Extra Burger Unit Price"> 0. 00</span>
+            <span class="cost" id="Extra Burger Cost">  0. 00 </span>
+        </div> 
+        <div class="totalRow">
+            <span class="total"> Total </span>
+            <span class="totalAmount" id="total"> 0. 00 </span> 
+        </div>
+        <div class="placeOrder" onclick="placeOrderEventHandler()"> Place Order </div>
+    </div>
+</div>
+<script src="tillSlip.js" type="text/javascript"> </script> 
+</body> 
+</html>
