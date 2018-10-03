@@ -1,2 +1,11 @@
 # 4kotas
-An HTML/Javascript app to help kota shop owners manage orders
+
+An HTML/Javascript app to help Soweto shop owners manage orders.
+
+A kota is a South African fast food staple sold in townships by micro and small business owners. The name is a colloquailism of the English word 'Quater', so named because the traditional version of a kota is made by cutting an unsliced loaf of bread in half, flipping it tall-side up so that it stands like a tower and cutting it in half again. The quater of bread is then hollowed out and filled with an assortment of ingredients which may include chips, polony, vienna and others; with some variants being made with mince and/or mashed potato. Modern interpretations include hero-roll styled 'gatsbys' and the use of sliced bread. 
+
+In the past, point-of-sales technology has been far too expensive for micro-business owners to invest in, and as a consequence, these entrepreneurs have not witnessed how powerful the incorporation of the correct technology can be in improving the day to day running of their businesses. However, the mass proliferation of mobile technology, with it's low cost and ease of use, has empowered aspiring developers like me to develop tools to help micro-business owners mangage their enterprizes more effectively, knowing that the business owner has access to, or may cheaply purchase, a device capable of running the application. Since this particular application is written in Javascript, with an html/css user interface, it can run in a browser on a cellphone, or ideally, a tablet, laptop or even a desktop. 
+
+The aims of the 4Kotas project are spread across three dimensions; the first being educational, the second entrepreneurial and the third promotional. On the educational front, the development of the application represents my journey as I learn to use a number of programming tools and technologies, with the goal being to grow my technical ability with regards to both design and implementation. The entrepreurial goals are to create an application that processes orders, records as well as updates stock levels and provides analysis features for the business owner, thereby making easier for him/her to run their business more effectively. Finally, on the promotional side of things, I aim to use this project (and others to come) as a portfolio piece to show prospective employers what I can do.  
+
+I will continue to post updates as the project matures, I welcome anybody who wishes to critique any aspect of the project to do so at leisuire. 
