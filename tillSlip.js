@@ -6,7 +6,7 @@ function Ingredient(name, inputUnit, portionUnit, portionSize, portionsPerInputU
 	this.portionUnit = portionUnit;
 	this.portionSize = portionSize;
 	this.portionsPerInputUnit = portionsPerInputUnit;
-	this.portionsInStock = 0; 
+	this.portionsInStock = 10;
 	this.costPerInputUnit = costPerInputUnit;
 	this.sellingPrice = sellingPrice;
 	this.costPerPortion = costPerPortion;
